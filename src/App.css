@@ -1,0 +1,31 @@
+*{
+  background-color: black;
+}
+.header-logo{
+  width: 150px;
+  position: absolute;
+  margin-top: -55px;
+}
+
+.link-header{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  padding-top: 40px;
+}
+.nav-link{
+  font-size: 1.1rem;
+  color: #fff;
+  font-weight: 400;
+}
+.navbar-nav{
+  background-color: black;
+  border-radius: 10px;
+  width: 500px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  border: 2px solid #363636  !important;
+}
