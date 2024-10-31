@@ -1,0 +1,83 @@
+.container {
+    padding: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .form-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .form {
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    color: #fff; /* Label mətni ağ */
+    font-size: 16px; /* Label mətni ölçüsü */
+    font-weight: bold; /* Mətni qalınlaşdırmaq üçün */
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .submit-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .table {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .table th,
+  .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .table th {
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+  }
+
+.custom-toast .Toastify__toast {
+    background-color: black; 
+    color: white; 
+  }
+  
+  .custom-toast .Toastify__toast-icon {
+    color: green;
+  }
+  
+  .custom-toast .Toastify__progress-bar {
+    background-color: green; 
+  }
+  

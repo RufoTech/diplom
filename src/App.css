@@ -1,11 +1,19 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.poppins-extrabold {
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.poppins-extrabolds {
+  font-family: "Poppins", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+ *{
   background-color: black;
-}
-.header-logo{
-  width: 150px;
-  position: absolute;
-  margin-top: -55px;
-}
+ }
+
+
 
 .link-header{
   display: flex;
@@ -21,11 +29,66 @@
 .navbar-nav{
   background-color: black;
   border-radius: 10px;
-  width: 500px;
+  width: 400px;
   height: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 999px;
   border: 2px solid #363636  !important;
+  position: absolute;
+  left: 662px;
+}
+
+.nav-link {
+  position: relative;
+  text-decoration: none; 
+  color: inherit; 
+}
+
+.nav-link::after {
+  content: '';
+  display: block;
+  height: 2px; 
+  width: 0; 
+  background: #00E5D1; 
+  transition: width 0.3s, opacity 0.3s; 
+  position: absolute;
+  left: 50%;
+  bottom: -5px; 
+  transform: translateX(-50%); 
+  box-shadow: 0 0 5px #00E5D1, 0 0 10px #00E5D1, 0 0 15px #00E5D1; 
+  opacity: 0; 
+}
+
+.nav-link:hover::after {
+  width: 100%; 
+  opacity: 1; 
+}
+
+.navbar-nav .nav-link {
+  color: white; 
+  transition: color 0.3s ease;
+}
+
+.navbar-nav:hover .nav-link {
+  color: gray; 
+}
+
+.navbar-nav .nav-item:hover .nav-link {
+  color: white;
+}
+
+
+body::-webkit-scrollbar {
+  display: none;  /* Chrome, Safari ve diğer WebKit tabanlı tarayıcılar */
+}
+
+
+
+@media(min-width:340px) and (max-width:600px){
+  
+}
+@media(min-width:991px){
+  
 }
